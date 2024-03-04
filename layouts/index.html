@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>My First Blog</title>
-    <link rel="stylesheet" href="/style.css"/>
-  </head>
-  <body>
-    {{.Content}}
-<div style="width:50%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/vIJaz7nMJhTUc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/costume-duck-donald-vIJaz7nMJhTUc">via GIPHY</a></p>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    {{ .Content }}
+    <div style="width:50%;height:0;padding-bottom:75%;position:relative;"><iframe
+            src="https://giphy.com/embed/vIJaz7nMJhTUc" width="100%" height="100%" style="position:absolute"
+            frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    <p><a href="https://giphy.com/gifs/costume-duck-donald-vIJaz7nMJhTUc">via GIPHY</a></p>
 
 
-<div style="width:50%;height:0;padding-bottom:99%;position:relative;"><iframe src="https://giphy.com/embed/5T8tEJtCgvDuo" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/no-5T8tEJtCgvDuo">via GIPHY</a></p>
-  <ul>
-    {{ range .Site.RegularPages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-   </ul>
+    <div style="width:50%;height:0;padding-bottom:99%;position:relative;"><iframe
+            src="https://giphy.com/embed/5T8tEJtCgvDuo" width="100%" height="100%" style="position:absolute"
+            frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    <p><a href="https://giphy.com/gifs/no-5T8tEJtCgvDuo">via GIPHY</a></p>
+    <ul>
+        {{ range .Site.RegularPages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
 
 
-<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="851" src="https://giphy.com/embed/rO2mCJMgGrD4F21FeM/video" width="480"></iframe></div>
+    <div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="851"
+            src="https://giphy.com/embed/rO2mCJMgGrD4F21FeM/video" width="480"></iframe></div>
 
 
-<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="266" src="https://giphy.com/embed/d9P5HfhXRNRj9JDPe9/video" width="480"></iframe></div>
+    <div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="266"
+            src="https://giphy.com/embed/d9P5HfhXRNRj9JDPe9/video" width="480"></iframe></div>
 
 
-<iframe src="https://giphy.com/embed/PLAoPrUTVE4FvNM0Vv" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/giphystudios2023-rip-rest-in-peace-nick-kinling-PLAoPrUTVE4FvNM0Vv">via GIPHY</a></p>
+    <iframe src="https://giphy.com/embed/PLAoPrUTVE4FvNM0Vv" width="480" height="480" frameBorder="0"
+        class="giphy-embed" allowFullScreen></iframe>
+    <p><a href="https://giphy.com/stickers/giphystudios2023-rip-rest-in-peace-nick-kinling-PLAoPrUTVE4FvNM0Vv">via
+            GIPHY</a></p>
 
 
-<iframe src="https://giphy.com/embed/SB5fjrUhAeLte" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dog-hug-SB5fjrUhAeLte">via GIPHY</a></p>
-  </body>
-</html> 
+    <iframe src="https://giphy.com/embed/SB5fjrUhAeLte" width="480" height="480" frameBorder="0" class="giphy-embed"
+        allowFullScreen></iframe>
+    <p><a href="https://giphy.com/gifs/dog-hug-SB5fjrUhAeLte">via GIPHY</a></p>
+</body>
+
+</html>
